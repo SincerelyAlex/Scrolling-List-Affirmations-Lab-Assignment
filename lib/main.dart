@@ -12,23 +12,23 @@ class Affirmation {
 
 List<Affirmation> affirmationsList = [
   Affirmation(
-    affirmationText: 'You\'re goated',
+    affirmationText: 'I am strong.',
     imagePath: 'assets/images/god_rays.jpg',
   ), 
   Affirmation(
-    affirmationText: 'You\'re goated goated',
+    affirmationText: 'I believe in myself',
     imagePath: 'assets/images/Crimson_sunset.jpg',
   ),
   Affirmation(
-    affirmationText: 'You\'re goated goated goated',
+    affirmationText: 'Each day is a new opportunity to grow and be a better version of myself.',
     imagePath: 'assets/images/Florida_sunset.jpg',
   ),
   Affirmation(
-    affirmationText: 'You\'re goated goated goated goated',
+    affirmationText: 'I am capable of achieving my goals.',
     imagePath: 'assets/images/orange_and_blue.jpg',
   ),
   Affirmation(
-    affirmationText: 'You\'re goated goated goated goated goated',
+    affirmationText: 'I am grateful for the positive things in my life.',
     imagePath: 'assets/images/Sunset_in_idaho.jpg',
   ),
 ];
