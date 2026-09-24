@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+// Alex Hoang
+
 class Affirmation {
   final String affirmationText;
   final String imagePath;
@@ -49,7 +51,9 @@ class MainApp extends StatelessWidget {
           itemCount: affirmationsList.length,
           itemBuilder: (BuildContext context, int index) {
             return Card(
+              clipBehavior: Clip.antiAlias,
               color: Colors.amber[500],
+              margin: const EdgeInsets.all(8),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
