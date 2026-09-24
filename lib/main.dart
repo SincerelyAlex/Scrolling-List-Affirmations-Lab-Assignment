@@ -12,23 +12,23 @@ class Affirmation {
 
 List<Affirmation> affirmationsList = [
   Affirmation(
-    affirmationText: 'I am strong.',
+    affirmationText: 'I am a good programmer.',
     imagePath: 'assets/images/god_rays.jpg',
   ), 
   Affirmation(
-    affirmationText: 'I believe in myself',
+    affirmationText: 'I am confident in my abilities.',
     imagePath: 'assets/images/Crimson_sunset.jpg',
   ),
   Affirmation(
-    affirmationText: 'Each day is a new opportunity to grow and be a better version of myself.',
+    affirmationText: 'I am constantly curious and willing to learn.',
     imagePath: 'assets/images/Florida_sunset.jpg',
   ),
   Affirmation(
-    affirmationText: 'I am capable of achieving my goals.',
+    affirmationText: 'I can perservere through all challenges.',
     imagePath: 'assets/images/orange_and_blue.jpg',
   ),
   Affirmation(
-    affirmationText: 'I am grateful for the positive things in my life.',
+    affirmationText: 'I am open-minded and respectful to my peers.',
     imagePath: 'assets/images/Sunset_in_idaho.jpg',
   ),
 ];
@@ -49,7 +49,7 @@ class MainApp extends StatelessWidget {
           itemCount: affirmationsList.length,
           itemBuilder: (BuildContext context, int index) {
             return Card(
-              color: Colors.amber[700],
+              color: Colors.amber[500],
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
